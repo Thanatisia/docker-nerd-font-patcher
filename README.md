@@ -88,7 +88,7 @@ thanks to [https://github.com/ryanoasis] and the nerd fonts team for the ability
         	|-- volume/
         	    |
         	    |-- in/
-    	   ```
+    	    ```
         - Output ('/out') folder
             ```
             path/
@@ -98,7 +98,7 @@ thanks to [https://github.com/ryanoasis] and the nerd fonts team for the ability
         	|-- volume/
         	    |
         	    |-- out/
-    	   ```
+    	    ```
 
 ## TODO (Pipeline)
  + [] Make my own dockerfile to install and setup nerd fonts for use, just entirely for fun because why not
