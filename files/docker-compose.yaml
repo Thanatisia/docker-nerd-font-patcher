@@ -1,0 +1,11 @@
+version: "3"
+services:
+    nerd-font-patcher:
+        # Nerd-font manual patcher docker
+        image: nerdfonts/patcher
+        container_name: "nerd-font-patcher"
+        volumes:
+            # Input fonts
+            - "$PWD/fonts/in:/in"
+            # Output font path
+            - "$PWD/fonts/out:/out"
